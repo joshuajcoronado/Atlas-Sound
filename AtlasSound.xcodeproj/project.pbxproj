@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075EBBEF191E3A5700634D37 /* bells.aif in Resources */ = {isa = PBXBuildFile; fileRef = 075EBBEC191E3A5700634D37 /* bells.aif */; };
+		075EBBF0191E3A5700634D37 /* temple.aif in Resources */ = {isa = PBXBuildFile; fileRef = 075EBBED191E3A5700634D37 /* temple.aif */; };
+		075EBBF1191E3A5700634D37 /* yell.aif in Resources */ = {isa = PBXBuildFile; fileRef = 075EBBEE191E3A5700634D37 /* yell.aif */; };
+		0770CF2E191F75A000CDDDB7 /* floor.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770CF2D191F75A000CDDDB7 /* floor.png */; };
+		0770CF33191F76AB00CDDDB7 /* sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770CF2F191F76AB00CDDDB7 /* sign.png */; };
+		0770CF34191F76AB00CDDDB7 /* tuna_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770CF30191F76AB00CDDDB7 /* tuna_color.png */; };
+		0770CF35191F76AB00CDDDB7 /* cement.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770CF31191F76AB00CDDDB7 /* cement.png */; };
+		0770CF36191F76AB00CDDDB7 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 0770CF32191F76AB00CDDDB7 /* wood.png */; };
+		0770CF39191F7DE600CDDDB7 /* FishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0770CF38191F7DE600CDDDB7 /* FishButton.m */; };
+		0770CF3C191F89A500CDDDB7 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 0770CF3B191F89A500CDDDB7 /* Map.m */; };
+		0770CF3F191F8A0E00CDDDB7 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0770CF3E191F8A0E00CDDDB7 /* MapView.m */; };
+		07730DF9191FC07C007AA2E1 /* MovingTuna.m in Sources */ = {isa = PBXBuildFile; fileRef = 07730DF8191FC07C007AA2E1 /* MovingTuna.m */; };
+		07730DFC191FD3F5007AA2E1 /* MovingBoat.m in Sources */ = {isa = PBXBuildFile; fileRef = 07730DFB191FD3F5007AA2E1 /* MovingBoat.m */; };
+		07730DFF191FDADA007AA2E1 /* BoatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07730DFE191FDADA007AA2E1 /* BoatButton.m */; };
+		07730E02191FE0C3007AA2E1 /* FishVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 07730E01191FE0C3007AA2E1 /* FishVIew.m */; };
+		07AC203D191E045200EC1562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC203C191E045200EC1562 /* Foundation.framework */; };
+		07AC203F191E045200EC1562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC203E191E045200EC1562 /* CoreGraphics.framework */; };
+		07AC2041191E045200EC1562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC2040191E045200EC1562 /* UIKit.framework */; };
+		07AC2047191E045200EC1562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07AC2045191E045200EC1562 /* InfoPlist.strings */; };
+		07AC2049191E045200EC1562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC2048191E045200EC1562 /* main.m */; };
+		07AC204D191E045200EC1562 /* AtlasSoundAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC204C191E045200EC1562 /* AtlasSoundAppDelegate.m */; };
+		07AC2050191E045200EC1562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07AC204E191E045200EC1562 /* Main.storyboard */; };
+		07AC2053191E045200EC1562 /* AtlasSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC2052191E045200EC1562 /* AtlasSoundViewController.m */; };
+		07AC2055191E045200EC1562 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07AC2054191E045200EC1562 /* Images.xcassets */; };
+		07AC205C191E045200EC1562 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC205B191E045200EC1562 /* XCTest.framework */; };
+		07AC205D191E045200EC1562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC203C191E045200EC1562 /* Foundation.framework */; };
+		07AC205E191E045200EC1562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07AC2040191E045200EC1562 /* UIKit.framework */; };
+		07AC2066191E045200EC1562 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07AC2064191E045200EC1562 /* InfoPlist.strings */; };
+		07AC2068191E045200EC1562 /* AtlasSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC2067191E045200EC1562 /* AtlasSoundTests.m */; };
+		07AC2078191E082600EC1562 /* white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AC2077191E082600EC1562 /* white.jpg */; };
+		07AC207C191E1C4600EC1562 /* black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AC2079191E1C4600EC1562 /* black.jpg */; };
+		07AC207D191E1C4600EC1562 /* blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AC207A191E1C4600EC1562 /* blue.jpg */; };
+		07AC207E191E1C4600EC1562 /* grey_blue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07AC207B191E1C4600EC1562 /* grey_blue.jpg */; };
+		07AC2086191E2E3300EC1562 /* SeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC2085191E2E3300EC1562 /* SeaViewController.m */; };
+		07AC2089191E2E4900EC1562 /* TsujikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC2088191E2E4900EC1562 /* TsujikiViewController.m */; };
+		07AC208C191E2E5D00EC1562 /* TunaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AC208B191E2E5D00EC1562 /* TunaViewController.m */; };
+		07D7F2B8191F1E3F00484EB1 /* StyleKitTsujiki.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7F2B7191F1E3F00484EB1 /* StyleKitTsujiki.m */; };
+		07D7F2BB191F1F4F00484EB1 /* TsujikiMarketVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7F2BA191F1F4F00484EB1 /* TsujikiMarketVIew.m */; };
+		07D8983519242486001B8A92 /* MovingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D8983419242486001B8A92 /* MovingPerson.m */; };
+		07F31BE8191FEC7A00305AFD /* tuna_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F31BE7191FEC7A00305AFD /* tuna_brown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07AC205F191E045200EC1562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07AC2031191E045200EC1562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07AC2038191E045200EC1562;
+			remoteInfo = AtlasSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075EBBEC191E3A5700634D37 /* bells.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = bells.aif; path = ../bells.aif; sourceTree = "<group>"; };
+		075EBBED191E3A5700634D37 /* temple.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = temple.aif; path = ../temple.aif; sourceTree = "<group>"; };
+		075EBBEE191E3A5700634D37 /* yell.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = yell.aif; path = ../yell.aif; sourceTree = "<group>"; };
+		0770CF2D191F75A000CDDDB7 /* floor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floor.png; sourceTree = "<group>"; };
+		0770CF2F191F76AB00CDDDB7 /* sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sign.png; sourceTree = "<group>"; };
+		0770CF30191F76AB00CDDDB7 /* tuna_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuna_color.png; sourceTree = "<group>"; };
+		0770CF31191F76AB00CDDDB7 /* cement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cement.png; sourceTree = "<group>"; };
+		0770CF32191F76AB00CDDDB7 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		0770CF37191F7DE600CDDDB7 /* FishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishButton.h; sourceTree = "<group>"; };
+		0770CF38191F7DE600CDDDB7 /* FishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishButton.m; sourceTree = "<group>"; };
+		0770CF3A191F89A500CDDDB7 /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		0770CF3B191F89A500CDDDB7 /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		0770CF3D191F8A0E00CDDDB7 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		0770CF3E191F8A0E00CDDDB7 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		07730DF7191FC07C007AA2E1 /* MovingTuna.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingTuna.h; sourceTree = "<group>"; };
+		07730DF8191FC07C007AA2E1 /* MovingTuna.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingTuna.m; sourceTree = "<group>"; };
+		07730DFA191FD3F5007AA2E1 /* MovingBoat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingBoat.h; sourceTree = "<group>"; };
+		07730DFB191FD3F5007AA2E1 /* MovingBoat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingBoat.m; sourceTree = "<group>"; };
+		07730DFD191FDADA007AA2E1 /* BoatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatButton.h; sourceTree = "<group>"; };
+		07730DFE191FDADA007AA2E1 /* BoatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatButton.m; sourceTree = "<group>"; };
+		07730E00191FE0C3007AA2E1 /* FishVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishVIew.h; sourceTree = "<group>"; };
+		07730E01191FE0C3007AA2E1 /* FishVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishVIew.m; sourceTree = "<group>"; };
+		07AC2039191E045200EC1562 /* AtlasSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlasSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AC203C191E045200EC1562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07AC203E191E045200EC1562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07AC2040191E045200EC1562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07AC2044191E045200EC1562 /* AtlasSound-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtlasSound-Info.plist"; sourceTree = "<group>"; };
+		07AC2046191E045200EC1562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07AC2048191E045200EC1562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07AC204A191E045200EC1562 /* AtlasSound-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtlasSound-Prefix.pch"; sourceTree = "<group>"; };
+		07AC204B191E045200EC1562 /* AtlasSoundAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtlasSoundAppDelegate.h; sourceTree = "<group>"; };
+		07AC204C191E045200EC1562 /* AtlasSoundAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlasSoundAppDelegate.m; sourceTree = "<group>"; };
+		07AC204F191E045200EC1562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07AC2051191E045200EC1562 /* AtlasSoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtlasSoundViewController.h; sourceTree = "<group>"; };
+		07AC2052191E045200EC1562 /* AtlasSoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlasSoundViewController.m; sourceTree = "<group>"; };
+		07AC2054191E045200EC1562 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07AC205A191E045200EC1562 /* AtlasSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtlasSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07AC205B191E045200EC1562 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07AC2063191E045200EC1562 /* AtlasSoundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtlasSoundTests-Info.plist"; sourceTree = "<group>"; };
+		07AC2065191E045200EC1562 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07AC2067191E045200EC1562 /* AtlasSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtlasSoundTests.m; sourceTree = "<group>"; };
+		07AC2077191E082600EC1562 /* white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white.jpg; sourceTree = "<group>"; };
+		07AC2079191E1C4600EC1562 /* black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = black.jpg; sourceTree = "<group>"; };
+		07AC207A191E1C4600EC1562 /* blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blue.jpg; sourceTree = "<group>"; };
+		07AC207B191E1C4600EC1562 /* grey_blue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grey_blue.jpg; sourceTree = "<group>"; };
+		07AC2084191E2E3300EC1562 /* SeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeaViewController.h; sourceTree = "<group>"; };
+		07AC2085191E2E3300EC1562 /* SeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeaViewController.m; sourceTree = "<group>"; };
+		07AC2087191E2E4900EC1562 /* TsujikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsujikiViewController.h; sourceTree = "<group>"; };
+		07AC2088191E2E4900EC1562 /* TsujikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsujikiViewController.m; sourceTree = "<group>"; };
+		07AC208A191E2E5D00EC1562 /* TunaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunaViewController.h; sourceTree = "<group>"; };
+		07AC208B191E2E5D00EC1562 /* TunaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunaViewController.m; sourceTree = "<group>"; };
+		07D7F2B6191F1E3500484EB1 /* StyleKitTsujiki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleKitTsujiki.h; sourceTree = "<group>"; };
+		07D7F2B7191F1E3F00484EB1 /* StyleKitTsujiki.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleKitTsujiki.m; sourceTree = "<group>"; };
+		07D7F2B9191F1F4F00484EB1 /* TsujikiMarketVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TsujikiMarketVIew.h; sourceTree = "<group>"; };
+		07D7F2BA191F1F4F00484EB1 /* TsujikiMarketVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TsujikiMarketVIew.m; sourceTree = "<group>"; };
+		07D8983319242486001B8A92 /* MovingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovingPerson.h; path = ../MovingPerson.h; sourceTree = "<group>"; };
+		07D8983419242486001B8A92 /* MovingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovingPerson.m; path = ../MovingPerson.m; sourceTree = "<group>"; };
+		07F31BE7191FEC7A00305AFD /* tuna_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tuna_brown.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07AC2036191E045200EC1562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC203F191E045200EC1562 /* CoreGraphics.framework in Frameworks */,
+				07AC2041191E045200EC1562 /* UIKit.framework in Frameworks */,
+				07AC203D191E045200EC1562 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC2057191E045200EC1562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC205C191E045200EC1562 /* XCTest.framework in Frameworks */,
+				07AC205E191E045200EC1562 /* UIKit.framework in Frameworks */,
+				07AC205D191E045200EC1562 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07AC2030191E045200EC1562 = {
+			isa = PBXGroup;
+			children = (
+				07AC2042191E045200EC1562 /* AtlasSound */,
+				07AC2061191E045200EC1562 /* AtlasSoundTests */,
+				07AC203B191E045200EC1562 /* Frameworks */,
+				07AC203A191E045200EC1562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07AC203A191E045200EC1562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07AC2039191E045200EC1562 /* AtlasSound.app */,
+				07AC205A191E045200EC1562 /* AtlasSoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07AC203B191E045200EC1562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07AC203C191E045200EC1562 /* Foundation.framework */,
+				07AC203E191E045200EC1562 /* CoreGraphics.framework */,
+				07AC2040191E045200EC1562 /* UIKit.framework */,
+				07AC205B191E045200EC1562 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07AC2042191E045200EC1562 /* AtlasSound */ = {
+			isa = PBXGroup;
+			children = (
+				07D8983319242486001B8A92 /* MovingPerson.h */,
+				07D8983419242486001B8A92 /* MovingPerson.m */,
+				07AC204E191E045200EC1562 /* Main.storyboard */,
+				07F31BE7191FEC7A00305AFD /* tuna_brown.png */,
+				07D7F2B9191F1F4F00484EB1 /* TsujikiMarketVIew.h */,
+				07D7F2BA191F1F4F00484EB1 /* TsujikiMarketVIew.m */,
+				0770CF3D191F8A0E00CDDDB7 /* MapView.h */,
+				0770CF3E191F8A0E00CDDDB7 /* MapView.m */,
+				07D7F2B6191F1E3500484EB1 /* StyleKitTsujiki.h */,
+				07D7F2B7191F1E3F00484EB1 /* StyleKitTsujiki.m */,
+				0770CF3A191F89A500CDDDB7 /* Map.h */,
+				0770CF3B191F89A500CDDDB7 /* Map.m */,
+				0770CF2F191F76AB00CDDDB7 /* sign.png */,
+				0770CF30191F76AB00CDDDB7 /* tuna_color.png */,
+				0770CF31191F76AB00CDDDB7 /* cement.png */,
+				0770CF32191F76AB00CDDDB7 /* wood.png */,
+				0770CF2D191F75A000CDDDB7 /* floor.png */,
+				0770CF37191F7DE600CDDDB7 /* FishButton.h */,
+				0770CF38191F7DE600CDDDB7 /* FishButton.m */,
+				07730DF7191FC07C007AA2E1 /* MovingTuna.h */,
+				07730DF8191FC07C007AA2E1 /* MovingTuna.m */,
+				07730DFA191FD3F5007AA2E1 /* MovingBoat.h */,
+				07730DFD191FDADA007AA2E1 /* BoatButton.h */,
+				07730DFE191FDADA007AA2E1 /* BoatButton.m */,
+				07730DFB191FD3F5007AA2E1 /* MovingBoat.m */,
+				07AC2051191E045200EC1562 /* AtlasSoundViewController.h */,
+				07AC2052191E045200EC1562 /* AtlasSoundViewController.m */,
+				07AC2084191E2E3300EC1562 /* SeaViewController.h */,
+				07AC2085191E2E3300EC1562 /* SeaViewController.m */,
+				07AC2087191E2E4900EC1562 /* TsujikiViewController.h */,
+				07AC2088191E2E4900EC1562 /* TsujikiViewController.m */,
+				07AC208A191E2E5D00EC1562 /* TunaViewController.h */,
+				07AC208B191E2E5D00EC1562 /* TunaViewController.m */,
+				07730E00191FE0C3007AA2E1 /* FishVIew.h */,
+				07730E01191FE0C3007AA2E1 /* FishVIew.m */,
+				07AC2083191E1CC500EC1562 /* sounds */,
+				07AC207F191E1C7100EC1562 /* backgrounds */,
+				07AC2054191E045200EC1562 /* Images.xcassets */,
+				07AC2043191E045200EC1562 /* Supporting Files */,
+			);
+			path = AtlasSound;
+			sourceTree = "<group>";
+		};
+		07AC2043191E045200EC1562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AC204B191E045200EC1562 /* AtlasSoundAppDelegate.h */,
+				07AC204C191E045200EC1562 /* AtlasSoundAppDelegate.m */,
+				07AC2044191E045200EC1562 /* AtlasSound-Info.plist */,
+				07AC2045191E045200EC1562 /* InfoPlist.strings */,
+				07AC2048191E045200EC1562 /* main.m */,
+				07AC204A191E045200EC1562 /* AtlasSound-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07AC2061191E045200EC1562 /* AtlasSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				07AC2067191E045200EC1562 /* AtlasSoundTests.m */,
+				07AC2062191E045200EC1562 /* Supporting Files */,
+			);
+			path = AtlasSoundTests;
+			sourceTree = "<group>";
+		};
+		07AC2062191E045200EC1562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07AC2063191E045200EC1562 /* AtlasSoundTests-Info.plist */,
+				07AC2064191E045200EC1562 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07AC207F191E1C7100EC1562 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				07AC2079191E1C4600EC1562 /* black.jpg */,
+				07AC207A191E1C4600EC1562 /* blue.jpg */,
+				07AC207B191E1C4600EC1562 /* grey_blue.jpg */,
+				07AC2077191E082600EC1562 /* white.jpg */,
+			);
+			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		07AC2083191E1CC500EC1562 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				075EBBEC191E3A5700634D37 /* bells.aif */,
+				075EBBED191E3A5700634D37 /* temple.aif */,
+				075EBBEE191E3A5700634D37 /* yell.aif */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07AC2038191E045200EC1562 /* AtlasSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AC206B191E045200EC1562 /* Build configuration list for PBXNativeTarget "AtlasSound" */;
+			buildPhases = (
+				07AC2035191E045200EC1562 /* Sources */,
+				07AC2036191E045200EC1562 /* Frameworks */,
+				07AC2037191E045200EC1562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlasSound;
+			productName = AtlasSound;
+			productReference = 07AC2039191E045200EC1562 /* AtlasSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07AC2059191E045200EC1562 /* AtlasSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07AC206E191E045200EC1562 /* Build configuration list for PBXNativeTarget "AtlasSoundTests" */;
+			buildPhases = (
+				07AC2056191E045200EC1562 /* Sources */,
+				07AC2057191E045200EC1562 /* Frameworks */,
+				07AC2058191E045200EC1562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07AC2060191E045200EC1562 /* PBXTargetDependency */,
+			);
+			name = AtlasSoundTests;
+			productName = AtlasSoundTests;
+			productReference = 07AC205A191E045200EC1562 /* AtlasSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07AC2031191E045200EC1562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AtlasSound;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Stanford University";
+				TargetAttributes = {
+					07AC2059191E045200EC1562 = {
+						TestTargetID = 07AC2038191E045200EC1562;
+					};
+				};
+			};
+			buildConfigurationList = 07AC2034191E045200EC1562 /* Build configuration list for PBXProject "AtlasSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07AC2030191E045200EC1562;
+			productRefGroup = 07AC203A191E045200EC1562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07AC2038191E045200EC1562 /* AtlasSound */,
+				07AC2059191E045200EC1562 /* AtlasSoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07AC2037191E045200EC1562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F31BE8191FEC7A00305AFD /* tuna_brown.png in Resources */,
+				07AC207E191E1C4600EC1562 /* grey_blue.jpg in Resources */,
+				075EBBEF191E3A5700634D37 /* bells.aif in Resources */,
+				07AC2055191E045200EC1562 /* Images.xcassets in Resources */,
+				07AC207D191E1C4600EC1562 /* blue.jpg in Resources */,
+				075EBBF1191E3A5700634D37 /* yell.aif in Resources */,
+				07AC2078191E082600EC1562 /* white.jpg in Resources */,
+				07AC2047191E045200EC1562 /* InfoPlist.strings in Resources */,
+				075EBBF0191E3A5700634D37 /* temple.aif in Resources */,
+				0770CF33191F76AB00CDDDB7 /* sign.png in Resources */,
+				07AC2050191E045200EC1562 /* Main.storyboard in Resources */,
+				0770CF2E191F75A000CDDDB7 /* floor.png in Resources */,
+				0770CF36191F76AB00CDDDB7 /* wood.png in Resources */,
+				0770CF35191F76AB00CDDDB7 /* cement.png in Resources */,
+				0770CF34191F76AB00CDDDB7 /* tuna_color.png in Resources */,
+				07AC207C191E1C4600EC1562 /* black.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC2058191E045200EC1562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC2066191E045200EC1562 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07AC2035191E045200EC1562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D8983519242486001B8A92 /* MovingPerson.m in Sources */,
+				07D7F2BB191F1F4F00484EB1 /* TsujikiMarketVIew.m in Sources */,
+				07AC2089191E2E4900EC1562 /* TsujikiViewController.m in Sources */,
+				0770CF3F191F8A0E00CDDDB7 /* MapView.m in Sources */,
+				07AC2053191E045200EC1562 /* AtlasSoundViewController.m in Sources */,
+				0770CF39191F7DE600CDDDB7 /* FishButton.m in Sources */,
+				07730E02191FE0C3007AA2E1 /* FishVIew.m in Sources */,
+				07AC208C191E2E5D00EC1562 /* TunaViewController.m in Sources */,
+				07D7F2B8191F1E3F00484EB1 /* StyleKitTsujiki.m in Sources */,
+				07730DFF191FDADA007AA2E1 /* BoatButton.m in Sources */,
+				07730DF9191FC07C007AA2E1 /* MovingTuna.m in Sources */,
+				0770CF3C191F89A500CDDDB7 /* Map.m in Sources */,
+				07AC204D191E045200EC1562 /* AtlasSoundAppDelegate.m in Sources */,
+				07730DFC191FD3F5007AA2E1 /* MovingBoat.m in Sources */,
+				07AC2086191E2E3300EC1562 /* SeaViewController.m in Sources */,
+				07AC2049191E045200EC1562 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07AC2056191E045200EC1562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AC2068191E045200EC1562 /* AtlasSoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07AC2060191E045200EC1562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07AC2038191E045200EC1562 /* AtlasSound */;
+			targetProxy = 07AC205F191E045200EC1562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07AC2045191E045200EC1562 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC2046191E045200EC1562 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07AC204E191E045200EC1562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC204F191E045200EC1562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07AC2064191E045200EC1562 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07AC2065191E045200EC1562 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07AC2069191E045200EC1562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		07AC206A191E045200EC1562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07AC206C191E045200EC1562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Coronado (Y9W588RJ9W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlasSound/AtlasSound-Prefix.pch";
+				INFOPLIST_FILE = "AtlasSound/AtlasSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07AC206D191E045200EC1562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Joshua Coronado (Y9W588RJ9W)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlasSound/AtlasSound-Prefix.pch";
+				INFOPLIST_FILE = "AtlasSound/AtlasSound-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07AC206F191E045200EC1562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AtlasSound.app/AtlasSound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlasSound/AtlasSound-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AtlasSoundTests/AtlasSoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07AC2070191E045200EC1562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AtlasSound.app/AtlasSound";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlasSound/AtlasSound-Prefix.pch";
+				INFOPLIST_FILE = "AtlasSoundTests/AtlasSoundTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07AC2034191E045200EC1562 /* Build configuration list for PBXProject "AtlasSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC2069191E045200EC1562 /* Debug */,
+				07AC206A191E045200EC1562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AC206B191E045200EC1562 /* Build configuration list for PBXNativeTarget "AtlasSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC206C191E045200EC1562 /* Debug */,
+				07AC206D191E045200EC1562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07AC206E191E045200EC1562 /* Build configuration list for PBXNativeTarget "AtlasSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AC206F191E045200EC1562 /* Debug */,
+				07AC2070191E045200EC1562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07AC2031191E045200EC1562 /* Project object */;
+}
